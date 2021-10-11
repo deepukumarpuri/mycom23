@@ -32,11 +32,11 @@
         "MUST_JOIN": {
              "description": "Add username/id of a channel/group",
               "value": "DKBOTZ"
-             "required": false,
+             "required": false
         },
         "DATABASE_URL": {
             "description": "Get ur Id Of Telegram nd Paste Here.",
-            "value": "",
+            "value": ""
             "required": false
         }
     }
