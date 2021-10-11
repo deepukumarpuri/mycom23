@@ -10,11 +10,11 @@
     "env": {
         "APP_ID": {
             "description": "You api id, from my.telegram.org or @apiScrapperRoBot.",
-            "value": ""
+            "value": "4464291"
         },
         "API_HASH": {
             "description": "You api hash, from my.telegram.org or @apiScrapperRoBot.",
-            "value": ""
+            "value": "1dde1cb551ed4f51034988414a199dbf"
         },
         "BOT_TOKEN": {
             "description": "Make a bot from @BotFather, and enter it's api token here.",
@@ -22,21 +22,21 @@
         },
         "LOG_CHANNEL": {
             "description": "Create a private group/channel. Add @missrose_bot and your bot + make admin. Do /id. Paste that here",
-             "value": ""
+             "value": "-1001741175805"
         },
         "OWNER_ID": {
             "description": "Get ur Id Of Telegram nd Paste Here.",
-            "value": "",
+            "value": "1617706923",
             "required": false
          },
         "MUST_JOIN": {
              "description": "Add username/id of a channel/group",
-              "value": "DKBOTZ"
+              "value": "dondkdl"
              
         },
         "DATABASE_URL": {
             "description": "Get ur Id Of Telegram nd Paste Here.",
-            "value": ""
+            "value": "mongodb+srv://Watermarks:786@cluster0.v1ah9.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
            
         }
     }
