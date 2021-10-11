@@ -1,6 +1,6 @@
-from TimeBot.database.users_sql import Users, num_users
-from TimeBot.database.chats_sql import Chats, num_chats
-from TimeBot.database import SESSION
+from helper.database.users_sql import Users, num_users
+from helper.database.chats_sql import Chats, num_chats
+from helper.database import SESSION
 from pyrogram import Client, filters
 from pyrogram.types import Message
 
