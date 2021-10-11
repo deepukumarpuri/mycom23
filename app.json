@@ -1,4 +1,5 @@
-{
+
+
     "name": "CompressorBot",
     "description": "A Normal Telegram Bot Which can Compress/encode/ Generate Samples of videos.",
     "logo": "https://telegra.ph/file/75ee20ec8d8c8bba84f02.jpg",
@@ -32,6 +33,11 @@
       "description": "Add username/id of a channel/group",
       "required": false,
       "value": ""
+        },
+        "DATABASE_URL": {
+            "description": "Get ur Id Of Telegram nd Paste Here.",
+            "value": "",
+            "required": false
         }
     }
 }
