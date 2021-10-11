@@ -143,7 +143,7 @@ async def sample(e):
     out, dl, thum, dtime = wh.split(";")
     ss, dd = await duration_s(dl)
     xxx = await e.edit(
-        "`Generating Sample...`",
+        "`Generating Sample...`\nJoin My Update Channel :- @DKBOTZ",
         buttons=[
             [Button.inline("STATS", data=f"stats{wah}")],
             [Button.inline("CANCEL PROCESS", data=f"skip{wah}")],
@@ -211,7 +211,7 @@ async def encod(event):
                 return await event.reply("`This Video File is already Compressed 😑😑.`")
         except BaseException:
             pass
-        xxx = await event.reply("`Downloading...`")
+        xxx = await event.reply("`Downloading...`\nJoin My Update Channel :- @DKBOTZ")
         """ For Force Subscribe Channel"""
         # pp = []
         # async for x in event.client.iter_participants("put group username"):
@@ -219,7 +219,7 @@ async def encod(event):
         # if (user.id) not in pp:
         #    return await xxx.edit(
         #        "U Must Subscribe This Channel To Use This Bot",
-        #       buttons=[Button.url("JOIN CHANNEL", url="put group link")],
+        #       buttons=[Button.url("JOIN CHANNEL", url="@DKBOTZ")],
         #   )
         if len(COUNT) > 4 and user.id != OWNER:
             llink = (await event.client(cl(LOG))).link
