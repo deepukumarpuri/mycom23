@@ -96,7 +96,7 @@ async def encc(e):
         ees = dt.now()
         ttt = time.time()
         await nn.delete()
-        nnn = await e.client.send_message(e.chat_id, "`Uploading.......`\n\n`❤️ Join My Update Channel :- @DKBOTZ ❤️`")
+        nnn = await e.client.send_message(e.chat_id, "`Uploading.......`\n\n`❤️ Join My Update Channel` :- @DKBOTZ ❤️")
         with open(out, "rb") as f:
             ok = await upload_file(
                      client=e.client,
@@ -143,7 +143,7 @@ async def sample(e):
     out, dl, thum, dtime = wh.split(";")
     ss, dd = await duration_s(dl)
     xxx = await e.edit(
-        "`Generating 📸 Sample.........`\n\n`❤️ Join My Update Channel :- @DKBOTZ ❤️`",
+        "`Generating 📸 Sample.........`\n\n`❤️ Join My Update Channel` :- @DKBOTZ ❤️",
         buttons=[
             [Button.inline("STATS", data=f"stats{wah}")],
             [Button.inline("CANCEL PROCESS", data=f"skip{wah}")],
@@ -211,7 +211,7 @@ async def encod(event):
                 return await event.reply("`This Video File is already Compressed 😑😑.`")
         except BaseException:
             pass
-        xxx = await event.reply("`Downloading.......`\n`♥️ Join My Update Channel :- @DKBOTZ ♥️`")
+        xxx = await event.reply("`Downloading.......`\n`♥️ Join My Update Channel` :- @DKBOTZ ♥️")
         """ For Force Subscribe Channel"""
         # pp = []
         # async for x in event.client.iter_participants("@DKBOTZ"):
@@ -297,7 +297,7 @@ async def encod(event):
         COUNT.remove(user.id)
         await event.client.send_message(
             event.chat_id,
-            f"🐠DOWNLODING COMPLETED!!🐠\n\n`❤️ Join My Update Channel :- @DKBOTZ ❤️`",
+            f"🐠DOWNLODING COMPLETED!!🐠\n\n`❤️ Join My Update Channel` :- @DKBOTZ ❤️",
             buttons=[
                 [
                     Button.inline("GENERATE 📸 SAMPLE", data=f"gsmpl{key}"),
@@ -343,7 +343,7 @@ async def customenc(e, key):
     ees = dt.now()
     ttt = time.time()
     await nn.delete()
-    nnn = await e.client.send_message(e.chat_id, "`Uploading........`\n\n`❤️ Join My Update Channel :- @DKBOTZ ❤️`")
+    nnn = await e.client.send_message(e.chat_id, "`Uploading........`\n\n`❤️ Join My Update Channel` :- @DKBOTZ ❤️")
     try:
         with open(out, "rb") as f:
             ok = await upload_file(
