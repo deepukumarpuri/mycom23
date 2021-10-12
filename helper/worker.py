@@ -96,7 +96,7 @@ async def encc(e):
         ees = dt.now()
         ttt = time.time()
         await nn.delete()
-        nnn = await e.client.send_message(e.chat_id, "`Uploading...`\nJoin My Update Channel :- @DKBOTZ")
+        nnn = await e.client.send_message(e.chat_id, "`Uploading.......`\n\n`❤️ Join My Update Channel :- @DKBOTZ ❤️`")
         with open(out, "rb") as f:
             ok = await upload_file(
                      client=e.client,
@@ -123,7 +123,7 @@ async def encc(e):
         a1 = await info(dl, e)
         a2 = await info(out, e)
         dk = await ds.reply(
-            f"Original Size : {hbs(org)}\nCompressed Size : {hbs(com)}\nCompressed Percentage : {per}\n\nMediainfo: [Before]({a1})//[After]({a2})\n\nDownloaded in {x}\nCompressed in {xx}\nUploaded in {xxx}\n Video Compress By @DKBOTZ\n\nMust Be Join My Updates Channel in More New Bot\nUpdate Channel :- @DKBOTZ",
+            f"Original Size : {hbs(org)}\nCompressed Size : {hbs(com)}\nCompressed Percentage : {per}\n\nMediainfo: [Before]({a1})//[After]({a2})\n\nDownloaded in {x}\nCompressed in {xx}\nUploaded in {xxx}\n Video Compress By @DKBOTZ\n\nMust Be Join My Updates Channel in More New Bot\n💝 Update Channel :- @DKBOTZ 💝",
             link_preview=False,
         )
         await ds.forward_to(LOG)
@@ -143,7 +143,7 @@ async def sample(e):
     out, dl, thum, dtime = wh.split(";")
     ss, dd = await duration_s(dl)
     xxx = await e.edit(
-        "`Generating Sample...`\nJoin My Update Channel :- @DKBOTZ",
+        "`Generating Sample...`\n\n`❤️ Join My Update Channel :- @DKBOTZ ❤️`",
         buttons=[
             [Button.inline("STATS", data=f"stats{wah}")],
             [Button.inline("CANCEL PROCESS", data=f"skip{wah}")],
@@ -214,7 +214,7 @@ async def encod(event):
         xxx = await event.reply("`Downloading...`\nJoin My Update Channel :- @DKBOTZ")
         """ For Force Subscribe Channel"""
         # pp = []
-        # async for x in event.client.iter_participants("put group username"):
+        # async for x in event.client.iter_participants("@DKBOTZ"):
         #    pp.append(x.id)
         # if (user.id) not in pp:
         #    return await xxx.edit(
@@ -297,7 +297,7 @@ async def encod(event):
         COUNT.remove(user.id)
         await event.client.send_message(
             event.chat_id,
-            f"🐠DOWNLODING COMPLETED!!🐠",
+            f"🐠DOWNLODING COMPLETED!!🐠\n\n`❤️ Join My Update Channel :- @DKBOTZ ❤️`",
             buttons=[
                 [
                     Button.inline("GENERATE SAMPLE", data=f"gsmpl{key}"),
@@ -343,7 +343,7 @@ async def customenc(e, key):
     ees = dt.now()
     ttt = time.time()
     await nn.delete()
-    nnn = await e.client.send_message(e.chat_id, "`Uploading...`")
+    nnn = await e.client.send_message(e.chat_id, "`Uploading...`\n\n`❤️ Join My Update Channel :- @DKBOTZ ❤️`")
     try:
         with open(out, "rb") as f:
             ok = await upload_file(
@@ -376,7 +376,7 @@ async def customenc(e, key):
     a1 = await info(dl, e)
     a2 = await info(out, e)
     dk = await ds.reply(
-        f"Original Size : {hbs(org)}\nCompressed Size : {hbs(com)}\nCompressed Percentage : {per}\n\nMediainfo: [Before]({a1})//[After]({a2})\n\nDownloaded in {x}\nCompressed in {xx}\nUploaded in {xxx}\nVideo Compress By @DKBOTZ\nMust Be Join My Updates Channel in More New Bot\nUpdate Channel :- @DKBOTZ",
+        f"Original Size : {hbs(org)}\nCompressed Size : {hbs(com)}\nCompressed Percentage : {per}\n\nMediainfo: [Before]({a1})//[After]({a2})\n\nDownloaded in {x}\nCompressed in {xx}\nUploaded in {xxx}\nVideo Compress By @DKBOTZ\nMust Be Join My Updates Channel in More New Bot\n♥️ Update Channel :- @DKBOTZ ♥️",
         link_preview=False,
     )
     await ds.forward_to(LOG)
