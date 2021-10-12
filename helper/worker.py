@@ -76,7 +76,7 @@ async def encc(e):
             "`Compressing..`",
             buttons=[
                 [Button.inline("📊 STATS", data=f"stats{wah}")],
-                [Button.inline("CANCEL PROCESS", data=f"skip{wah}")],
+                [Button.inline("⚠️ CANCEL PROCESS", data=f"skip{wah}")],
             ],
         )
         cmd = f'ffmpeg -i "{dl}" -preset ultrafast -c:v libx265 -crf 27 -map 0:v -c:a aac -map 0:a -c:s copy -map 0:s? "{out}" -y'
@@ -180,7 +180,7 @@ async def sample(e):
                     Button.inline("📸 SCREENSHOTS", data=f"sshot{wah}"),
                     Button.inline("COMPRESS", data=f"sencc{wah}"),
                 ],
-                [Button.inline("SKIP", data=f"skip{wah}")],
+                [Button.inline("⚠️ SKIP", data=f"skip{wah}")],
             ],
         )
         COUNT.remove(e.chat_id)
@@ -322,7 +322,7 @@ async def customenc(e, key):
         "`Compressing..`",
         buttons=[
             [Button.inline("📊 STATS", data=f"stats{wah}")],
-            [Button.inline("CANCEL PROCESS", data=f"skip{wah}")],
+            [Button.inline("⚠️ CANCEL PROCESS", data=f"skip{wah}")],
         ],
     )
     cmd = f'ffmpeg -i "{dl}" -preset ultrafast -c:v libx265 -crf 27 -map 0:v -c:a aac -map 0:a -c:s copy -map 0:s? "{out}" -y'
