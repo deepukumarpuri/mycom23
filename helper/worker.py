@@ -17,7 +17,7 @@ from .funcn import *
 from .FastTelethon import download_file, upload_file
 
 async def screenshot(e):
-    await e.edit("`Generating Screenshots...`\n\n`❤️ Join My Update Channel :- @DKBOTZ ❤️`")
+    await e.edit("`Generating 📸 Screenshots...`\n\n`❤️ Join My Update Channel :- @DKBOTZ ❤️`")
     COUNT.append(e.chat_id)
     wah = e.pattern_match.group(1).decode("UTF-8")
     key = decode(wah)
@@ -38,7 +38,7 @@ async def screenshot(e):
             "Check Screenshots Above 😁",
             buttons=[
                 [
-                    Button.inline("GENERATE SAMPLE", data=f"gsmpl{wah}"),
+                    Button.inline("GENERATE 📸 SAMPLE", data=f"gsmpl{wah}"),
                     Button.inline("COMPRESS", data=f"sencc{wah}"),
                 ],
                 [Button.inline("SKIP", data=f"skip{wah}")],
@@ -143,7 +143,7 @@ async def sample(e):
     out, dl, thum, dtime = wh.split(";")
     ss, dd = await duration_s(dl)
     xxx = await e.edit(
-        "`Generating Sample.........`\n\n`❤️ Join My Update Channel :- @DKBOTZ ❤️`",
+        "`Generating 📸 Sample.........`\n\n`❤️ Join My Update Channel :- @DKBOTZ ❤️`",
         buttons=[
             [Button.inline("STATS", data=f"stats{wah}")],
             [Button.inline("CANCEL PROCESS", data=f"skip{wah}")],
@@ -177,7 +177,7 @@ async def sample(e):
             ),
             buttons=[
                 [
-                    Button.inline("SCREENSHOTS", data=f"sshot{wah}"),
+                    Button.inline("📸 SCREENSHOTS", data=f"sshot{wah}"),
                     Button.inline("COMPRESS", data=f"sencc{wah}"),
                 ],
                 [Button.inline("SKIP", data=f"skip{wah}")],
