@@ -31,7 +31,7 @@ from PIL import Image
 from database.database import *
 
 
-@pyrogram.Client.on_message(pyrogram.filters.command(["photo"]))
+@pyrogram.Client.on_message(pyrogram.filters.command(["worker"]))
 if update.from_user.id in Config.BANNED_USERS:
   then,
   bot.send_message(
