@@ -13,7 +13,7 @@ else:
     from config import Config
 
 # the Strings used for this "thing"
-from translation import Translation
+from helper.stuff import stuff
 from pyrogram.types import ReplyKeyboardMarkup,InlineKeyboardMarkup,InlineKeyboardButton
 from pyrogram.errors import UserNotParticipant, UserBannedInChannel
 
