@@ -300,8 +300,8 @@ async def encod(event):
             f"🐠DOWNLODING COMPLETED!!🐠\n\n`❤️ Join My Update Channel :- @DKBOTZ ❤️`",
             buttons=[
                 [
-                    Button.inline("GENERATE SAMPLE", data=f"gsmpl{key}"),
-                    Button.inline("SCREENSHOTS", data=f"sshot{key}"),
+                    Button.inline("GENERATE 📸 SAMPLE", data=f"gsmpl{key}"),
+                    Button.inline("📸 SCREENSHOTS", data=f"sshot{key}"),
                 ],
                 [Button.url("MEDIAINFO", url=inf)],
                 [Button.inline("COMPRESS", data=f"sencc{key}")],
